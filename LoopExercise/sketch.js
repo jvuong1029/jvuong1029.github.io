@@ -29,3 +29,9 @@ function draw() {
 		circle(x, y, d);
 	}
 }
+
+function mouseClicked() {
+	stroke(random(0, 256));
+	strokeWeight(random(1, 11));
+	rect(mouseX, mouseY, 55, 55);
+}
