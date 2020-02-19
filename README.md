@@ -1,4 +1,4 @@
-# [jvuong1029.github.io](https://jvuong1029.github.io/)
+# jvuong1029.github.io
 ## [Github repo page](https://github.com/jvuong1029/jvuong1029.github.io)
 
 ## ART151 Projects
