@@ -33,38 +33,38 @@ var gravity;
 function preload() {
 	// audio
 	gameAudio = loadSound(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/audio/GameAudio.mp3"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/audio/GameAudio.mp3"
 	);
 	gameOverAudio = loadSound(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/audio/GameOverAudio.mp3"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/audio/GameOverAudio.mp3"
 	);
 	jumpAudio = loadSound(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/audio/JumpAudio.mp3"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/audio/JumpAudio.mp3"
 	);
 	lostLifeAudio = loadSound(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/audio/LostLifeAudio.mp3"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/audio/LostLifeAudio.mp3"
 	);
 	titleAudio = loadSound(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/audio/TitleAudio.mp3"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/audio/TitleAudio.mp3"
 	);
 
 	// backgrounds
 	titleBackground = loadImage(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/Title.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Title.png"
 	);
 	gameBackground = loadImage(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/GameBackground.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/GameBackground.png"
 	);
 	winBackground = loadImage(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/Win.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Win.png"
 	);
 	gameOverBackground = loadImage(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/GameOver.gif"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/GameOver.gif"
 	);
 
 	// lives
 	livesPic = loadImage(
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/MarioHead.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/MarioHead.png"
 	);
 }
 
@@ -77,20 +77,20 @@ function setup() {
 	marioSprite = createSprite(100, marioY, 40, 40);
 	marioSprite.addAnimation(
 		"stand",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/MarioCenter.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/MarioCenter.png"
 	);
 	marioSprite.addAnimation(
 		"walk",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/Mario1.png",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/Mario3.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Mario1.png",
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Mario3.png"
 	);
 	marioSprite.addAnimation(
 		"jump",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/MarioJump.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/MarioJump.png"
 	);
 	marioSprite.addAnimation(
 		"dead",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/MarioDie.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/MarioDie.png"
 	);
 	marioY = windowHeight - 220;
 	marioJ = 2;
@@ -98,7 +98,7 @@ function setup() {
 	goombaSprite = createSprite(windowWidth - 110, windowHeight - 120, 40, 40);
 	goombaSprite.addAnimation(
 		"goomba",
-		"https://github.com/jvuong1029/jvuong1029.github.io/blob/master/UserInputProject/images/Goomba.png"
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Goomba.png"
 	);
 	goombaPassed = true;
 
