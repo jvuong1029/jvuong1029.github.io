@@ -109,7 +109,7 @@ function setup() {
 	livesLeftY = 15;
 
 	playing = false;
-	screen = "win";
+	screen = "title";
 
 	score = 0;
 	overlap = false;
