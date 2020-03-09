@@ -82,6 +82,7 @@ function setup() {
 	marioSprite.addAnimation(
 		"walk",
 		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Mario1.png",
+		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Mario2.png",
 		"https://raw.githubusercontent.com/jvuong1029/jvuong1029.github.io/master/UserInputProject/images/Mario3.png"
 	);
 	marioSprite.addAnimation(
