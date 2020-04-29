@@ -143,8 +143,6 @@ function gotResult(error, results) {
 	// The results are in an array ordered by confidence.
 	label = results[0].label;
 
-	// TODO add backspace
-	// FIXME be able to control only when voice
 	print("Label: " + label);
 	switch (label) {
 		case "Dot":
